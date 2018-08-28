@@ -64,9 +64,12 @@ body {
     z-index: 1;
     color: #fff;
     font-size: 4rem;
+    margin-bottom: 15px;
     text-align: center;
     font-family: 'Bad Script', cursive;
+    border-bottom: 1px solid rgba(247, 247, 247, 0.11); 
 }
+
 @media screen and (max-width: 992px) {
     .sobre h1 {
         font-size: 2rem;
@@ -74,6 +77,21 @@ body {
     .sobre p {
         font-size: 14px;
     }  
+}
+
+.sobre h3 {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Bad Script', cursive;
+}
+@media screen and (max-width: 992px) {
+    .sobre h3 {
+        font-size: 1.8rem;
+    }
+  
 }
 
 .sobre::after {
@@ -106,12 +124,14 @@ body {
     .galeria {
         width: 100%;
         position: relative;
+        padding: 10px;
     }  
 }
 
 .galeria h2 {
     font-size: 3.5rem;
     text-align: center;
+    margin-top: 40px;
     font-family: 'Bad Script', cursive;
 }
 
@@ -147,10 +167,20 @@ body {
 }
 
 
+footer {
+    width: 68%;
+    float: right;
+    padding: 30px;
+}
 
-
-
-
+@media screen and (max-width: 992px) {
+    footer {
+        width: 100%;
+        float: right;
+        padding: 30px 0;
+        text-align: center;
+    } 
+}
 
 
 
