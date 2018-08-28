@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Bad+Script');
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One|Merriweather');
+
+body {
+    background: #eee;
+    height: 100vh;
+    width: 100%;
+}
+
+
+.box {
+    height: 100vh;
+
+}
+
+.social {
+    position: relative;
+    z-index: 10;
+}
+
+.social a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #fff;
+    font-size: 40px;
+}
+
+.sobre {
+    background: rgb(235, 132, 132);
+    width: 32%;
+    padding: 30px;
+    background-image: url('./img/01.jpg');
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1200px) {
+    .sobre {
+        width: 100%;
+        position: relative;
+    }  
+}
+
+.sobre p {
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    margin: 10%;
+    font-family: 'Merriweather', serif;
+}
+
+.sobre h1 {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    font-size: 4rem;
+    text-align: center;
+    font-family: 'Bad Script', cursive;
+}
+@media screen and (max-width: 992px) {
+    .sobre h1 {
+        font-size: 2rem;
+    }
+    .sobre p {
+        font-size: 14px;
+    }  
+}
+
+.sobre::after {
+    background: rgba(146, 3, 103, 0.65);
+    content: "";
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.quemsou {
+    width: 68%;
+    float: right;
+    padding: 30px;
+}
+
+.quemsou p {
+    font-size: 1.5rem;
+    font-family: 'Bad Script', cursive;
+}
+
+.galeria {
+    width: 68%;
+    float: right;
+    padding: 30px;
+}
+@media screen and (max-width: 1200px) {
+    .galeria {
+        width: 100%;
+        position: relative;
+    }  
+}
+
+.galeria h2 {
+    font-size: 3.5rem;
+    text-align: center;
+    font-family: 'Bad Script', cursive;
+}
+
+.galeria2 ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.galeria2 ul li {
+    list-style: none;
+  width: 31%;
+  margin: 10px;
+  overflow: hidden;
+  height: 300px;
+  border: 10px solid #fff;
+}
+@media screen and (max-width: 992px) {
+    .galeria2 ul li {
+        width: 49%;
+        margin: 10px 0;
+        position: relative;
+    }  
+}
+
+
+.galeria2 ul li img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
